@@ -1,0 +1,76 @@
+
+/* 4k devices*/
+@media (min-width: 1441px) and (max-width: 2600px) {
+	
+}
+
+/* 1024 - 769*/
+@media (min-width: 769px) and (max-width: 1024px) {
+
+
+}
+
+/* 426 - 768*/
+@media (min-width: 426px) and (max-width:768px) {
+
+}
+
+/* Mobile L 376 - 425*/
+@media (min-width: 376px) and (max-width:425px) {
+
+	#wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.site_block{
+		padding: 0;
+	}
+	
+	header {
+		display: block;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 46px;
+	    top: 28%;
+	    left: 5%;
+	    width: 80%;
+	}
+
+	#driver_block {
+		height: 85vh;
+		margin: 40px 0;
+	}
+
+	#driver_img, #driver_text {
+		float: left;
+		width: 100%;
+	}
+
+	#driver_text {
+		padding: 0 20px;
+	}
+
+	#driver_img img{
+		display: block;
+		width: 90%;
+		margin: 20px auto 0 auto;
+	}
+}
+
+/* 376 - 425*/
+@media (min-width: 376px) and (max-width:426px) {
+
+	
+}
+
+@media  (max-width:325px) {
+	/* style here*/
+
+
+}
+
+
+
+
