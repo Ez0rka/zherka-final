@@ -1,3 +1,8 @@
+*::selection {
+  color: yellow;
+  background: black;
+}
+
 
 /* 4k devices*/
 @media (min-width: 1441px) and (max-width: 2600px) {
@@ -12,6 +17,98 @@
 
 /* 426 - 768*/
 @media (min-width: 426px) and (max-width:768px) {
+#wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.site_block{
+		padding: 0;
+	}
+	
+	header {
+		display: block;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 46px;
+	    top: 28%;
+	    left: 5%;
+	    width: 80%;
+	}
+
+	#driver_block {
+		height: 85vh;
+		margin: 40px 0;
+	}
+
+	#driver_img, #driver_text {
+		float: left;
+		width: 100%;
+	}
+
+	#driver_text {
+		padding: 0 20px;
+	}
+
+	#driver_img img{
+		display: block;
+		width: 90%;
+		margin: 20px auto 0 auto;
+	}
+
+	#service_block {
+		height: auto; 
+	}
+
+	.service_item{
+		margin: 0 auto 25px auto;
+		float: none;	
+	}
+
+	.service_item h3 {
+		font-size: 18px;
+	}
+
+	.call_to_action {
+		width: 80%;
+	}
+
+	.call_to_action a {
+		margin: 0 0 50px 0;
+		font-size: 20px;
+	}
+
+
+	#reviews_block{
+		height:auto;
+	}
+
+	.review_item {
+		margin: 0 auto;
+		float: none;
+	}
+
+	#car_block{
+		height: auto;
+	}
+
+	.car_block_itm{
+		float: none;
+		margin: 0 auto 16px auto;
+	}
+
+	.car_block_itm:nth-child(4), .car_block_itm:nth-child(7)  {
+		margin: 0 auto 16px auto;
+	}
+
+	#order_block{
+		height: auto;
+	}
+
+	#order_block a {
+		padding: 0 0 20px 0	;
+	}
 
 }
 
@@ -57,17 +154,257 @@
 		width: 90%;
 		margin: 20px auto 0 auto;
 	}
+
+	#service_block {
+		height: auto; 
+	}
+
+	.service_item{
+		margin: 0 auto 25px auto;
+		float: none;	
+	}
+
+	.service_item h3 {
+		font-size: 18px;
+	}
+
+	.call_to_action {
+		width: 80%;
+	}
+
+	.call_to_action a {
+		margin: 0 0 50px 0;
+		font-size: 20px;
+	}
+
+
+	#reviews_block{
+		height:auto;
+	}
+
+	.review_item {
+		margin: 0 auto;
+		float: none;
+	}
+
+	#car_block{
+		height: auto;
+	}
+
+	.car_block_itm{
+		float: none;
+		margin: 0 auto 16px auto;
+	}
+
+	.car_block_itm:nth-child(4), .car_block_itm:nth-child(7)  {
+		margin: 0 auto 16px auto;
+	}
+
+	#order_block{
+		height: auto;
+	}
+
+	#order_block a {
+		padding: 0 0 20px 0	;
+	}
+
+
+
 }
 
 /* 376 - 425*/
-@media (min-width: 376px) and (max-width:426px) {
+@media (min-width: 321px) and (max-width:375px) {
 
+	#wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.site_block{
+		padding: 0;
+	}
 	
+	header {
+		display: block;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 46px;
+	    top: 28%;
+	    left: 5%;
+	    width: 80%;
+	}
+
+	#driver_block {
+		height: 85vh;
+		margin: 40px 0;
+	}
+
+	#driver_img, #driver_text {
+		float: left;
+		width: 100%;
+	}
+
+	#driver_text {
+		padding: 0 20px;
+	}
+
+	#driver_img img{
+		display: block;
+		width: 90%;
+		margin: 20px auto 0 auto;
+	}
+
+	#service_block {
+		height: auto; 
+	}
+
+	.service_item{
+		margin: 0 auto 25px auto;
+		float: none;	
+	}
+
+	.service_item h3 {
+		font-size: 18px;
+	}
+
+	.call_to_action {
+		width: 80%;
+	}
+
+	.call_to_action a {
+		margin: 0 0 50px 0;
+		font-size: 20px;
+	}
+
+
+	#reviews_block{
+		height:auto;
+	}
+
+	.review_item {
+		margin: 0 auto;
+		float: none;
+	}
+	
+
+	#car_block{
+		height: auto;
+	}
+
+	.car_block_itm{
+		float: none;
+		margin: 0 auto 16px auto;
+	}
+
+	.car_block_itm:nth-child(4), .car_block_itm:nth-child(7)  {
+		margin: 0 auto 16px auto;
+	}
+
+	#order_block{
+		height: auto;
+	}
+
+	#order_block a {
+		padding: 0 0 20px 0	;
+	}
+
 }
 
 @media  (max-width:325px) {
 	/* style here*/
 
+#wrapper {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.site_block{
+		padding: 0;
+	}
+	
+	header {
+		display: block;
+		width: 100%;
+	}
+
+	h1 {
+		font-size: 46px;
+	    top: 28%;
+	    left: 5%;
+	    width: 80%;
+	}
+
+	#driver_block {
+		height: 85vh;
+		margin: 40px 0;
+	}
+
+	#driver_img, #driver_text {
+		float: left;
+		width: 100%;
+	}
+
+	#driver_text {
+		padding: 0 20px;
+	}
+
+	#driver_img img{
+		display: block;
+		width: 90%;
+		margin: 20px auto 0 auto;
+	}
+
+	#service_block {
+		height: auto; 
+	}
+
+	.service_item{
+		margin: 0 auto 25px auto;
+		float: none;	
+	}
+
+	.service_item h3 {
+		font-size: 18px;
+	}
+
+	.call_to_action {
+		width: 80%;
+	}
+
+	.call_to_action a {
+		margin: 0 0 50px 0;
+		font-size: 20px;
+	}
+
+
+	#reviews_block{
+		height:auto;
+	}
+	.review_item {
+		margin: 0 auto;
+		float: none;
+	}
+
+	#car_block{
+		height: auto;
+	}
+
+	.car_block_itm{
+		float: none;
+		margin: 0 auto 16px auto;
+	}
+
+	.car_block_itm:nth-child(4), .car_block_itm:nth-child(7)  {
+		margin: 0 auto 16px auto;
+	}
+
+	#order_block{
+		height: auto;
+	}
+
+	#order_block a {
+		padding: 0 0 20px 0	;
+	}
 
 }
 
