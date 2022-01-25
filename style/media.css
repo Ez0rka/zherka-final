@@ -114,6 +114,9 @@
 
 /* Mobile L 376 - 425*/
 @media (min-width: 376px) and (max-width:425px) {
+	h1{
+		font-size: 80px;
+	}
 
 	#wrapper {
 		width: 100%;
@@ -328,9 +331,7 @@
 	}
 
 	h1 {
-		font-size: 46px;
-	    top: 28%;
-	    left: 5%;
+		font-size: 35px;
 	    width: 80%;
 	}
 

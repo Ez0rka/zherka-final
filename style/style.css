@@ -25,9 +25,8 @@ h1{
 	background: #000;
 	text-align: center;
 	color: whitesmoke;
-	position: absolute;
-	top: 20%;
-	left: 16%;
+	width: 70%;
+	margin: 250px auto;
 	font-size: 100px;
 	text-shadow: 11px 17px 5px rgba(255, 255, 255, .1);
 	/*https://css3gen.com/text-shadow/*/
